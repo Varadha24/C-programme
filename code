@@ -196,7 +196,7 @@ void modify()
 
 		string rollno;
 
-				cout<<"Enter the roll no of student which you want to update"<<endl;
+				cout<<"Enter the roll no: of student which you want to update"<<endl;
 
 				cin>>rollno;
 
