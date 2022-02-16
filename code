@@ -30,7 +30,7 @@ void enter()
 
 				cout<<"Enter name ";
 
-				cin>>arr1[i];
+				cin>>arr1[i]; 
 
 				cout<<"Enter Roll no ";
 
