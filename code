@@ -1,6 +1,4 @@
-[09:57, 16/02/2022] V: #include<iostream>
-
-
+#include<iostream>
 
 using namespace std;
 
