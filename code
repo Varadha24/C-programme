@@ -2,7 +2,7 @@
 
 using namespace std;
 
-string arr1[20],arr2[20],arr3[20],arr4[20],arr5[20];
+string arr1[20],arr2[20],arr3[20],arr4[20],arr5[20],arr6[20],arr7[20];
 
 int total=0;
 
@@ -47,6 +47,14 @@ void enter()
 				cout<<"Enter mark in maths ";
 
 				cin>>arr5[i];
+				
+				cout<<"Enter mark in biology ";
+
+				cin>>arr6[i];
+				
+				cout<<"Enter mark in english ";
+
+				cin>>arr7[i];
 
 				
 
@@ -85,6 +93,14 @@ void enter()
 				cout<<"Enter mark in maths ";
 
 				cin>>arr5[i];
+				
+				cout<<"Enter mark in biology ";
+
+				cin>>arr6[i];
+				
+				cout<<"Enter mark in english ";
+
+				cin>>arr7[i];
 
 			}
 
@@ -127,6 +143,10 @@ void display()
 	    		cout<<"chemistry "<<arr4[i]<<endl;
 
 	    		cout<<"maths "<<arr5[i]<<endl;
+	    		
+	    		cout<<"biology "<<arr6[i]<<endl;
+	    		
+	    		cout<<"english "<<arr7[i]<<endl;
 
 	    	    }
 
@@ -171,6 +191,10 @@ void search()
 	    		        cout<<"chemistry "<<arr4[i]<<endl;
 
 	    	        	cout<<"maths "<<arr5[i]<<endl;
+	    	        	
+	    	        	cout<<"biology "<<arr6[i]<<endl;
+	    	        	
+	    	        	cout<<"english "<<arr7[i]<<endl;
 
 					}
 
@@ -221,6 +245,10 @@ void modify()
 	    		        cout<<"chemistry "<<arr4[i]<<endl;
 
 	    	        	cout<<"maths "<<arr5[i]<<endl;
+	    	        	
+	    	        	cout<<"biology "<<arr6[i]<<endl;
+	    	        	
+	    	        	cout<<"english "<<arr7[i]<<endl;
 
 	    	        	cout<<"\nEnter new data"<<endl<<endl;
 
@@ -243,6 +271,14 @@ void modify()
 				            cout<<"Enter mark in maths ";
 
 				            cin>>arr5[i];
+				            
+				            cout<<"Enter mark in biology ";
+
+				            cin>>arr6[i];
+				            
+				            cout<<"Enter mark in english ";
+
+				            cin>>arr7[i];
 
 					}
 
@@ -317,6 +353,10 @@ void deletedata()
 						arr4[j]=arr4[j+1];
 
 						arr5[j]=arr5[j+1];
+						
+						arr6[j]=arr6[j+1];
+						
+						arr7[j]=arr7[j+1];
 
 				     	}
 
